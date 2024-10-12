@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+
+    >
+
+
+
+    <TextView
+        android:id="@+id/product_detail_title"
+        style="@style/TextAppearance.Material3.TitleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:text="Title"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/product_detail_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+
+
+    <TextView
+        style="@style/TextAppearance.Material3.BodySmall"
+        android:id="@+id/product_detail_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="category"/>
+
+    <TextView
+        android:id="@+id/product_detail_price"
+        style="@style/TextAppearance.Material3.BodyLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="price"/>
+
+    <TextView
+        style="@style/TextAppearance.Material3.BodySmall"
+        android:id="@+id/product_detail_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="Detail"/>
+
+    <TextView
+        style="@style/TextAppearance.Material3.BodySmall"
+        android:id="@+id/product_detail_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:text="Rating"/>
+
+
+    <Button
+        android:id="@+id/return_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return Button"
+        android:layout_gravity="center"
+
+        />
+</LinearLayout>
